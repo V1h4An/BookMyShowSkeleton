@@ -1,0 +1,63 @@
+.nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.movie_list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.live_events {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.premiere {
+    background-color: rgb(43, 49, 72);
+    color: white;
+    text-align: left; 
+    padding: 30px;
+}
+
+.p_list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+body { 
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    border-radius: 8px
+}
+
+input {
+    border : gray;
+    padding: 10px;
+    height: 20px;
+    width: 500px;
+    border-radius: 50px
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 25px;
+}
+
+select {
+    padding: 10px 15px;
+    border: gray;
+}
