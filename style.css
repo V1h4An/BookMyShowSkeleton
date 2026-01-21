@@ -4,6 +4,14 @@
     align-items: center;            
     width: 100%;                    
 }
+.nav_top {
+    background-color: #ffffff;
+    padding: 10px 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
 .nav_left{
     display: flex;
     align-items: center;
@@ -145,4 +153,8 @@ select {
     padding: 10px 15px;
     border: gray;
     cursor: pointer;
+}
+
+img {
+    border-radius: 8px;
 }
